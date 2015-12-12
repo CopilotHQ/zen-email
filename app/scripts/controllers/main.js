@@ -9,9 +9,10 @@
  */
 angular.module('zeneditorApp')
   .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+    var header = angular.element( document.querySelector( '.header span' ) );
+    var buttons = angular.element( document.querySelector( '.buttons span' ) );
+
+    header.fadeIn(5000);
+    buttons.delay( 500 ).fadeIn( 4000 );
+    console.log(header);
   });
