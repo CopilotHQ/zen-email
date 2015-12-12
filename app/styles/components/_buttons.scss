@@ -1,0 +1,25 @@
+/***************
+Buttons Styling Classes
+***************/
+
+// This is the styling class for buttons
+@mixin styleBtn($bgcolor, $textcolor: black, $ghost: false) {
+  background: $bgcolor;
+  color: $textcolor;
+  @if $ghost {
+    background: none;
+    border: 1px solid $bgcolor;
+    color: $bgcolor;
+
+    &:hover {
+      color: darken($bgcolor, 20%);
+      border-color: darken($bgcolor, 20%);
+    }
+  }
+}
+
+.btn-dark-red { @include styleBtn($dark-red, $ghost: true); }
+.btn-mid-red { @include styleBtn($mid-red, $ghost: true); }
+.btn-yellow { @include styleBtn($yellow, $ghost: true); }
+.btn-green { @include styleBtn($green, $ghost: true); }
+.btn-blue { @include styleBtn($blue, $ghost: true); }
