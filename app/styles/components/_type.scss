@@ -2,6 +2,12 @@
 Type Styling Classes
 ***************/
 
+body {
+  color: $font-color;
+}
+
 h1 {
   font-size: 4em;
 }
+
+.blue-text { color: $blue; }
