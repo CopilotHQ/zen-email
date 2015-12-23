@@ -11,6 +11,13 @@ version 0.14.0.
 
 ``sudo npm install npm -g``
 
+## Installation
+
+Once you clone the repo, you'll want to run two quick commands to make sure you have all the libraries and modules you'll need to get running.
+
+``sudo npm install
+bower install``
+
 ## Build & development
 
 Run `grunt` for building and `grunt serve` for preview.
