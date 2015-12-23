@@ -15,8 +15,10 @@ version 0.14.0.
 
 Once you clone the repo, you'll want to run two quick commands to make sure you have all the libraries and modules you'll need to get running.
 
-``sudo npm install  
-bower install``
+```
+sudo npm install  
+bower install
+```
 
 ## Build & development
 
