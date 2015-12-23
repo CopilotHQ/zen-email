@@ -16,5 +16,4 @@ angular.module('zeneditorApp')
 
     header.fadeIn(5000);
     buttons.delay( 500 ).fadeIn( 4000 );
-    console.log(header);
   }]);
