@@ -9,7 +9,9 @@ version 0.14.0.
 
 **[Node.js](https://nodejs.org/en/)** and npm. Npm should be installed with Node, but you might want to update:
 
-``sudo npm install npm -g``
+```
+sudo npm install npm -g
+```
 
 ## Installation
 
