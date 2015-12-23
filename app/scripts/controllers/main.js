@@ -11,9 +11,11 @@ angular.module('zeneditorApp')
   .controller('SlideCtrl', ['$scope', function ($scope) {
     var header = angular.element( document.querySelector( '.header span' ) );
     var buttons = angular.element( document.querySelector( '.buttons span' ) );
+    var subscriber = angular.element( document.querySelector( '.subscriber' ) );
 
     $scope.headline = 'Hello there.';
 
-    header.fadeIn(5000);
-    buttons.delay( 500 ).fadeIn( 4000 );
+    subscriber.fadeIn(5000);
+    header.delay(750).fadeIn(5000);
+    buttons.delay(1000).fadeIn(5000);
   }]);
